@@ -1,0 +1,38 @@
+.swirling{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-swirling{
+    width: 100vw;
+    height: 600px;
+    background-image: url(../swirling_staircase/swirling_img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+}
+.swirling-text{
+    width: 400px;
+    height: 600px;
+}
+.main-text-swirling{
+    width: 300px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-text-swirling p:first-child{
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #403E3B;
+    text-transform: uppercase;
+}
+.main-text-swirling p:last-child{
+    font-size: 16px;
+    color: #645C55;
+}

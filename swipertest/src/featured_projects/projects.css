@@ -1,0 +1,81 @@
+.projects{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projects-container{
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-projects{
+    width: 1170px;
+    height: 460px;
+    display: flex;
+    justify-content: space-between;
+}
+.title-projects{
+    width: 1170px;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title-projects p:first-child{
+    font-size: 39px;
+}
+.title-projects p:last-child{
+    font-size: 24px;
+    color: rgba(100, 92, 85, 1);
+    width: 600px;
+}
+.link-projects a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(27, 26, 26, 1);
+    letter-spacing: 0.4px;
+}
+.text-on{
+    width: 375px;
+    height: 456px;
+    position: absolute;
+    top: 285px;
+    right: 772px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-on-container{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.text-on-container p:first-child{
+    font-size: 14px;
+    color: rgba(100, 92, 85, 1);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.text-on-container p:nth-child(2){
+    font-size: 23px;
+    color: rgba(64, 62, 59, 1);
+}
+.text-on-container button{
+    width: 133px;
+    height: 46px;
+    background-color: rgba(27, 26, 26, 1);
+    border-radius: 14px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+}
